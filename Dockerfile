@@ -1,5 +1,8 @@
-# Use the latest OpenJDK 17 image as the base image
-FROM openjdk:17-oracle
+# Use the latest OpenJDK 17 slim image as the base image
+FROM openjdk:17-jdk-slim
+
+# Install Maven
+RUN apt-get update && apt-get install -y maven
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -8,8 +11,7 @@ WORKDIR /app
 COPY pom.xml .
 COPY src ./src
 
-# Install Maven and build the project
-RUN apt-get update && apt-get install -y maven
+# Build the project using Maven
 RUN mvn clean package -DskipTests
 
 # Copy the generated JAR file to the working directory
