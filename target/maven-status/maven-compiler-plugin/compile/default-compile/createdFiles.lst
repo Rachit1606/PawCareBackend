@@ -1,0 +1,16 @@
+com\pawcare\backend\model\Person.class
+com\pawcare\backend\repository\Test.class
+com\pawcare\backend\service\impl\PersonService.class
+com\pawcare\backend\model\User.class
+com\pawcare\backend\service\Iservice.class
+com\pawcare\backend\controller\PersonController.class
+com\pawcare\backend\repository\PersonRepository.class
+com\pawcare\backend\repository\UserRepository.class
+com\pawcare\backend\controller\UserController.class
+com\pawcare\backend\service\impl\UserService.class
+com\pawcare\backend\config\CorsConfig.class
+com\pawcare\backend\config\Test.class
+com\pawcare\backend\controller\Test.class
+com\pawcare\backend\BackendApplication.class
+com\pawcare\backend\model\Test.class
+com\pawcare\backend\service\impl\service.class

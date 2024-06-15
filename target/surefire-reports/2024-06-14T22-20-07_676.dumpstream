@@ -1,0 +1,5 @@
+# Created at 2024-06-14T22:20:07.976
+Boot Manifest-JAR contains absolute paths in classpath 'F:\MACS-Dal\5193\pawcare\backend\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
